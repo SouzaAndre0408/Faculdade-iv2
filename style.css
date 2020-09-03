@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.painel-1 {
+    display: flex;
+    background: rgb(180, 138, 223);
+    padding: 20px;
+}
+
+.painel-2 {
+    display: flex;
+    background: rgb(198, 236, 126);
+    padding: 20px;
+}
+
+.texto-informativo-1,
+.texto-informativo-2 {
+    padding: 50px;
+}
+
+.texto-informativo-1:hover,
+.texto-informativo-2:hover {
+    color: white;
+}
+
+.img-1,
+.img-2 {
+    padding: 50px;
+}
+
+#img-1:hover,
+#img-2:hover {
+    width: 500px;
+    height: 300px;
+}
+
+
+.footer {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+#link {
+    border: 1px solid purple;
+    border-radius: 2px;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 20px 50px;
+    color: white;
+    background: violet;
+    text-decoration: none;
+}
+
+#link:hover {
+    background: rgb(138, 7, 138);
+    color: gainsboro;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: blue;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #09d3ee;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: violet;
+}
